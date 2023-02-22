@@ -23,8 +23,8 @@ function sumOfNumbers(num1, num2, num3) {
   var sum = num1 + num2 + num3;
   return sum;
 }
-var sumResult = sumOfNumbers(10.23, 45, 79);
-console.log(sumResult);
+ var sumResult = sumOfNumbers(10.23, 45, 79);
+ console.log(sumResult);
 
 var num1 = 100;
 var num2 = 200;

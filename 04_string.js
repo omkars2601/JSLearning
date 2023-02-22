@@ -22,7 +22,7 @@ console.log("index of char which is not available into string: ",greet.indexOf('
 console.log("Index of o char",greet.indexOf('o'));
 console.log(" Index of o char using lastIndexOf()",greet.lastIndexOf('o'));
 
-var replaceResult = greet.replace('Morning','Evening')
+var replaceResult = greet.replace('Morning','Evening') 
 console.log(replaceResult);
 console.log(greet);
 
