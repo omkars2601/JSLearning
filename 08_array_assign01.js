@@ -1,0 +1,16 @@
+const arraySeasonalFruits = ["Banana","Orange","Apple","Mango","Water Melon"];
+console.log(`Original array is: ${arraySeasonalFruits}`);
+console.log(`First element is: ${arraySeasonalFruits[0]}`);
+console.log(`Last element is: ${arraySeasonalFruits[arraySeasonalFruits.length - 1]}`);
+arraySeasonalFruits.splice(3,1);
+console.log(`Array after removing "Mango" is: ${arraySeasonalFruits}`);
+arraySeasonalFruits.push("Pineapple");
+console.log(`Array after inserting "Pineapple" at last position is: ${arraySeasonalFruits}`);
+arraySeasonalFruits.splice(3,0,"Dragon Fruit");
+console.log(`Array after inserting "Dragon Fruit" before "Water Melon" is: ${arraySeasonalFruits}`);
+arraySeasonalFruits.splice(1,1,"Kiwi");
+console.log(`Array after replacing an "Orange" with "Kiwi" is: ${arraySeasonalFruits}`);
+let sliceResult = arraySeasonalFruits.slice(1,5);
+console.log(`Logging elements starting from index 1 to 4 on console is: ${sliceResult}`);
+let sliceResult2 = arraySeasonalFruits.slice(arraySeasonalFruits.length - 3);
+console.log(`Logging last 3 elements on console using length property is: ${sliceResult2}`);
