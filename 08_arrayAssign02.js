@@ -35,7 +35,7 @@ console.log(`****** Step 6 *****`);
 let evenSum = 0;
 for (let index = 0; index < arrayNumbers.length; index++) {
   const element = arrayNumbers[index];
-  if (element % 2 == 0) {
+  if (index % 2 == 0) {
     evenSum = evenSum + element;
   }
 }
@@ -44,7 +44,7 @@ console.log(`****** Step 7 *****`);
 let oddSum = 0;
 for (let index = 0; index < arrayNumbers.length; index++) {
   const element = arrayNumbers[index];
-  if (element % 2 != 0) {
+  if (index % 2 != 0) {
     oddSum = oddSum + element;
   }
 }
