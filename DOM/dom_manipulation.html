@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Exercise time!</title>
+    </head>
+    <body>
+         <main>
+            <div>
+                <h1 id="headingTag">HTML & Javascript are crucial technologies</h1>
+                <p>The web would not work without them...</p>
+            </div>
+            <div id ="advantages">
+                <ul >
+                    <li>Flexible</li>
+                    <li id="ava">Available</li>
+                    <li>Magical</li>
+                </ul>
+            </div>
+            
+         </main>
+         <script>
+                const mainheading = document.querySelector("#headingTag");
+                 console.log(mainheading);
+                let seconsAdvantage = document.getElementById("ava");
+                seconsAdvantage.innerHTML = "secondAdvantage";
+                console.log(seconsAdvantage);   // assignment to const not possible
+                let advDiv = document.querySelectorAll("#advantages");
+                console.log(advDiv);
+         </script>
+    </body>
+</html>
